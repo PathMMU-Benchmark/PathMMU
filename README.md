@@ -1,9 +1,11 @@
-# <img src="./img/logo.png" width="70" height="63"> PathMMU
+# <img src="D:/WestlkeUniversity/project/2023/git_repository/PathMMU-Eval/PathMMU/img/logo.png" width="70" height="63"> PathMMU
+
 This is the official repo for [**PathMMU: A Massive Multimodal Expert-Level Benchmark for Understanding and Reasoning in Pathology**](https://arxiv.org/abs/2401.16355) 
 
 [**🌐 Homepage**](https://pathmmu-benchmark.github.io/) | [**🤗 Dataset**](https://huggingface.co/datasets/jamessyx/PathMMU/) | [**📖 arXiv**](https://arxiv.org/abs/2401.16355) | [**GitHub**](https://github.com/PathMMU-Benchmark/PathMMU)
 
 ## 🔔News
+
 - **Important Notes!!!!!!** 
 - The benchmark data and evaluation code have been released (8/7/2024)
 
