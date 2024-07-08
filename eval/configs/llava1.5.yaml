@@ -1,0 +1,10 @@
+task_instructions:
+- ''
+multi_choice_example_format:
+- '{}
+
+{}
+
+Answer with the option''s letter from the given choices directly.'
+temperature:
+- 0

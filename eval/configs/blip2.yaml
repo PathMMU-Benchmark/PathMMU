@@ -1,0 +1,11 @@
+task_instructions:
+- ''
+multi_choice_example_format:
+- 'Question: {}
+
+Options: 
+{}
+
+Answer:'
+temperature:
+- 0

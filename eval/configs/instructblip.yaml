@@ -1,0 +1,8 @@
+task_instructions:
+- ''
+multi_choice_example_format:
+- 'Choose the correct option to the following question: {}
+Options: {}
+Answer:'
+temperature:
+- 0
