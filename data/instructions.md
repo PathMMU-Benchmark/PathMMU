@@ -83,7 +83,7 @@ Then you can use the provide code `construct_pathcls.py` to directly  place them
 
 ## SocialPath Subset
 
-![image-20240709041259807](..\img\example_tw.png)
+![image-20240709041259807](../img/example_tw.png)
 
 ```json
     {

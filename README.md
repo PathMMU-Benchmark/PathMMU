@@ -36,7 +36,7 @@ To counteract the model's tendency to bypass image analysis, we utilized ChatGPT
 
 ## Data Acquisition
 
-All QAs and PubMed images, as well as EduContent images, can be accessed directly on Huggingface. For images from other subsets, please follow the instructions to obtain them.
+All QAs and PubMed images, as well as EduContent images, can be accessed directly on Huggingface. For images from other subsets, please follow the [instructions](https://github.com/PathMMU-Benchmark/PathMMU/blob/main/data/instructions.md) to obtain them.
 
 ## Usage
 
