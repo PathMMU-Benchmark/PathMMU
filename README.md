@@ -1,4 +1,4 @@
-# <img src="D:/WestlkeUniversity/project/2023/git_repository/PathMMU-Eval/PathMMU/img/logo.png" width="70" height="63"> PathMMU
+# <img src="./img/logo.png" width="70" height="63"> PathMMU
 
 This is the official repo for [**PathMMU: A Massive Multimodal Expert-Level Benchmark for Understanding and Reasoning in Pathology**](https://arxiv.org/abs/2401.16355) 
 
