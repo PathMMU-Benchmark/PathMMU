@@ -112,7 +112,7 @@ After downloading the images, please place them in the `images` folder.
 
 ## Atlas Subset
 
-Many of the data in our atlas originate from our internal doctors' training guidelines. We sincerely apologize, as we are unable to make these guidelines open source. To ensure the integrity of **pathmmu**, we have used **ARCH** as an alternative data source, which is also derived from various atlases and books.
+Many of the data in our atlas originate from our internal doctors' training guidelines. We sincerely apologize, as we are unable to make these guidelines open source. To ensure the integrity of **PathMMU**, we have used [**ARCH**](https://arxiv.org/abs/2103.05121) as an alternative data source, which is also derived from various atlases and books.
 
 > #### Accessing the Data
 
