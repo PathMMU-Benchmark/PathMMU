@@ -1,6 +1,6 @@
 # PathMMU Additional Data Acquisition Instructions
 
-
+After you apply for Hugging Face's data, these steps are required to download the part of the images from the official website to complete the full dataset. 
 
 ## PathCLS Subset
 
