@@ -107,3 +107,51 @@ Then you can use the provide code `construct_pathcls.py` to directly  place them
 In the SocialPath subset's JSON file (`socialpath_mapping.json`), we provide the **Twitter ID (`tw_id`)**. Since some Twitter posts contain multiple images, the specific image's location is indicated in the **`img_position` field**. You can use this information with the Twitter API to download the images.  Additionally, you can use `ref_web` to directly log into the website and visually inspect the images. 
 
 After downloading the images, please place them in the `images` folder.
+
+
+
+## Atlas Subset
+
+Many of the data in our atlas originate from our internal doctors' training guidelines. We sincerely apologize, as we are unable to make these guidelines open source. To ensure the integrity of **pathmmu**, we have used **ARCH** as an alternative data source, which is also derived from various atlases and books.
+
+> #### Accessing the Data
+
+We employed a completely consistent pipeline, which includes strict data cleaning and human evaluation for each sample, to guarantee the quality and authority of the data. Additionally, to maintain consistency, we ensured that the test and validation sets contain an equal number of questions, with a slightly higher number of images.
+
+We provide the source images for your use. You can download the `book_set` data from the following link:
+
+[Download book_set Data](https://warwick.ac.uk/fac/cross_fac/tia/data/arch)
+
+After downloading, please use the images from the dataset according to the `source_img` reference provided in each data sample.
+
+
+
+> #### Example Data Entry
+
+```json
+{
+  "No": 0,
+  "img": "d6deb3d90223531e7317153e8c720bf116e4678e181a19eb023987d5d2038529.png",
+  "question": "What feature is significantly absent in the uppermost layers of the epithelium?",
+  "options": [
+    "A) Hyperkeratosis",
+    "B) Parakeratosis",
+    "C) Ballooning degeneration",
+    "D) Both A and B"
+  ],
+  "answer": "D) Both A and B",
+  "explanation": "The image lacks significant hyperkeratosis and parakeratosis, findings that are noted as absent in the description of the epithelial layer.",
+  "source_img": "books_set/images/5759734a-71c3-4769-a668-afb4a454c89c.png"
+}
+```
+
+If you wish to use any part of this Atlas data, you **must** cite the following work:
+
+```bibtex
+@inproceedings{gamper2020multiple,
+  title={Multiple Instance Captioning: Learning Representations from Histopathology Textbooks and Articles},
+  author={Gamper, Jevgenij and Rajpoot, Nasir},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year={2021}
+}
+```
